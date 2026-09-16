@@ -1,30 +1,17 @@
-SITE RÔMULO GUIMARÃES — CURSOS, LIVROS E AGENDA
+SITE RÔMULO GUIMARÃES — PACOTE FINAL
 
-COMO PUBLICAR NO NETLIFY
-1. Entre no painel do Netlify.
-2. Na área “Upload your project files”, arraste o arquivo ZIP inteiro.
-3. Aguarde a publicação automática.
-4. O Netlify criará um endereço gratuito terminado em .netlify.app.
-5. Depois, no painel do projeto, você poderá trocar o nome/endereço gratuito do site.
+Versão consolidada com os ajustes solicitados em 15/09/2026.
 
-WHATSAPP CONFIGURADO
-(61) 99111-0311
+Principais ajustes:
+- Hero sem “ENSINO • BÍBLIA • FORMAÇÃO” e sem parágrafo introdutório.
+- Logo da chama aplicado no cabeçalho, assinatura da foto e rodapé.
+- Assinatura: “Pr. Rômulo Guimarães”.
+- Sombra da foto principal suavizada.
+- Frase institucional reduzida para “Uma paixão por Cristo.”
+- Seção Livros com rótulo “MATERIAIS DE LITERATURA” e título “Livros”.
+- Formação: CETEG / Centro de Estudos Teológicos do Guará; RHEMA Brasil e Escola de Ministros RHEMA; Licenciatura em História removida.
+- Sobre atualizado com a biografia fornecida e a mesma foto recortada da capa, integrada ao fundo do site.
 
-Se precisar trocar o número no futuro:
-- Abra o arquivo script.js
-- Altere apenas a linha:
-  const WHATSAPP_NUMBER = '5561991110311';
-
-ARQUIVOS PRINCIPAIS
-- index.html: conteúdo e estrutura do site
-- styles.css: cores, tipografia e aparência
-- script.js: WhatsApp, menu mobile e animações
-- assets/: fotos e ícone
-
-PALETA PRINCIPAL
-- Laranja: #f05124
-- Grafite: #242424
-- Creme: #f3f0e9
-
-OBSERVAÇÃO
-Os botões de WhatsApp já abrem conversas com mensagens específicas conforme o produto ou serviço escolhido.
+Publicação:
+- Este ZIP pode ser enviado via drag-and-drop no Netlify quando novos deploys estiverem liberados.
+- O WhatsApp permanece configurado para (61) 99111-0311.
