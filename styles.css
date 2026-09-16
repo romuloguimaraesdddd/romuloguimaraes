@@ -103,14 +103,14 @@ button, input, textarea { font: inherit; }
   background: radial-gradient(circle at 50% 42%, rgba(255,255,255,.96) 0 32%, rgba(255,255,255,.60) 54%, rgba(255,255,255,0) 73%);
 }
 .photo-frame::after {
-  content: ''; position: absolute; width: 68%; height: 30px; left: 50%; bottom: 8px;
+  content: ''; position: absolute; width: 62%; height: 20px; left: 50%; bottom: 10px;
   transform: translateX(-50%); border-radius: 50%;
-  background: rgba(36,36,36,.12); filter: blur(16px); z-index: 0;
+  background: rgba(36,36,36,.07); filter: blur(20px); z-index: 0;
 }
 .photo-frame img {
   position: relative; z-index: 2; width: min(92%, 470px); max-height: 650px; aspect-ratio: auto;
   object-fit: contain; object-position: center bottom;
-  filter: grayscale(1) contrast(1.06) drop-shadow(0 20px 26px rgba(0,0,0,.18));
+  filter: grayscale(1) contrast(1.04) drop-shadow(0 10px 16px rgba(0,0,0,.10));
 }
 .photo-caption {
   position: absolute; z-index: 3; left: 18px; right: 18px; bottom: -18px;
@@ -197,8 +197,8 @@ button, input, textarea { font: inherit; }
 .timeline-item p { margin: 7px 0 0; color: rgba(255,255,255,.82); }
 
 .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 72px; align-items: center; }
-.about-photo { position: relative; background: rgba(255,255,255,.28); }
-.about-photo img { width: 100%; aspect-ratio: 4/5; object-fit: contain; object-position: center bottom; filter: grayscale(1) contrast(1.06) drop-shadow(0 18px 24px rgba(0,0,0,.14)); }
+.about-photo { position: relative; background: transparent; }
+.about-photo img { width: 100%; aspect-ratio: 4/5; object-fit: contain; object-position: center bottom; filter: grayscale(1) contrast(1.04) drop-shadow(0 10px 18px rgba(0,0,0,.09)); }
 .about-copy h2 { font-size: clamp(48px, 5vw, 76px); margin: 10px 0 28px; }
 .about-copy .eyebrow { margin-bottom: 28px; }
 .about-copy > p { color: var(--muted); font-size: 17px; }
